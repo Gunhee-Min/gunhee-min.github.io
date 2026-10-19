@@ -63,6 +63,12 @@ h3{font-family:var(--display);font-weight:700;font-size:1.3rem;margin:0;line-hei
 .langs li{border-top:3px solid var(--accent);padding-top:.6rem}
 .langs b{display:block;font-family:var(--display);font-size:1.25rem}
 .langs span{color:var(--muted)}
+.skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem}
+.skill{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:1.25rem 1.4rem}
+.skill h3{font-size:1.1rem;margin-bottom:.6rem}
+.skill ul{margin:0;padding-left:1.1rem}
+.skill li{margin-bottom:.3rem}
+.skill li::marker{color:var(--accent)}
 footer{padding:2rem 0 3rem;color:var(--muted);font-size:.95rem}
 @media (max-width:720px){
   header{padding-top:3rem}
@@ -81,6 +87,7 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.95rem}
       <ul class="links">
         <li><a class="primary" href="mailto:mgh9709@gmail.com">Email me</a></li>
         <li><a href="https://www.linkedin.com/in/gunheemin" rel="noopener">LinkedIn</a></li>
+        <li><a href="Gunhee_Min_Resume.pdf" download>Download resume (PDF)</a></li>
       </ul>
     </div>
   </header>
@@ -158,6 +165,28 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.95rem}
         <div><span>Cumulative GPA</span><b>3.47 / 4.00</b></div>
       </div>
       <p class="courses"><b>Relevant coursework:</b> Marketing and Sales, Business Finance and Information Systems, Content Moderation Task Force, Sustainability and Global Business, Essentials of Accounting, Essentials of Management and Entrepreneurship, Micro/Macroeconomics.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="skills-h">
+    <h2 id="skills-h">Skills</h2>
+    <div class="skills">
+      <div class="skill">
+        <h3>Client and stakeholder management</h3>
+        <ul><li>Executive communication</li><li>Relationship building</li><li>Project scoping and delivery</li><li>Expert network sourcing</li></ul>
+      </div>
+      <div class="skill">
+        <h3>Sales and deal operations</h3>
+        <ul><li>Deal economics and pricing</li><li>Statements of Work</li><li>Contract negotiation</li><li>Pipeline analytics</li></ul>
+      </div>
+      <div class="skill">
+        <h3>Analysis and finance</h3>
+        <ul><li>TAM modeling</li><li>Revenue forecasting inputs</li><li>Budgeting and financial reporting</li><li>Data-driven decision support</li></ul>
+      </div>
+      <div class="skill">
+        <h3>Marketing operations</h3>
+        <ul><li>B2B go-to-market strategy</li><li>Performance analytics</li><li>Conversion optimization</li></ul>
+      </div>
     </div>
   </section>
 
